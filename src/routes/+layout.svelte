@@ -9,7 +9,15 @@
 </script>
 
 <svelte:head>
-	<title>SnakeJS</title>
+	<title>SnakeTS</title>
+	<meta name="description" content="SnakeTS" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SnakeTS" />
+	<meta property="og:title" content="SnakeTS" />
+	<meta property="og:description" content="SnakeTS" />
+	<meta property="og:url" content="https://snakets.netlify.app" />
 </svelte:head>
 
 
@@ -19,7 +27,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl">SnakeJS</strong>
+				<strong class="text-xl">SnakeTS</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
